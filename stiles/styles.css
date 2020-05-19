@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700;900&display=swap');
+*{
+  padding:0px;
+  margin:0px;
+  font-family: 'Rubik', sans-serif;
+  box-sizing: border-box;
+}
+
+.padding-menu{
+  padding: 5px 80px 5px 80px;
+}
+.flex{
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+nav li{
+  display: inline-block;
+  padding: 10px;
+}
+
+.cont-nav{
+  box-shadow: 1px 1px 10px #888888;
+  background-color:#f8f9fa;
+}
+.top-header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+}
+.padding-nav{
+  padding-right: 80px;
+  margin-top: 15px;
+}
+.font-light{
+  font-weight: 300;
+}
+.font-bold{
+  font-weight: 500;
+}
+i{
+  padding-right: 5px;
+}
+.logo{
+  background: url('http://regaltheme.com/tf/multi/rm/rm/assets/img/logo-black.png');
+  width: 80px;
+  height: 80px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.color-card{
+  background-color: #f8f9fa;
+}
+
+#intro{
+  min-height: 100vh
+}
+#intro1{
+  min-height: 70vh
+}
+
+.content1{
+  text-align: center;
+  padding-top: 150px;
+  font-size: 2rem
+}
+h6 {
+  font-weight: 300;
+}
+.box{
+  display: flex;
+  min-height: 300px;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+.box-s{
+  padding: 30px 15px;
+  margin: -100px 10px 100px 10px;
+  background-color: white;
+  box-shadow: 1px 1px 10px #888888;
+  border-radius: 10px;
+}
+.text-align{
+  text-align: center;
+}
+.work-card{
+  width: 100%;
+  min-height:180px;
+}
+.padding-work{
+  padding-left: 200px;
+  padding-right: 200px;
+}
+.text-work{
+  font-size: 1.5rem;
+}
+.text-list{
+  font-size: 0.7rem;
+}
+
+.flex1{
+  display: flex;
+  align-content: center;
+}
+
+.main{
+  display: flex;
+  height: auto;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  justify-content: center;
+}
+.child1{
+  min-width: 250px;
+  height: 250px;
+  display: inline-flex;
+  margin: 10px;
+}
+.child2{
+  min-width: 250px;
+  height: 350px;
+  display: inline-flex;
+  margin: 10px;
+}
+.one{
+  background-image: url("http://regaltheme.com/tf/multi/rm/rm/assets/img/portfolio/style4/1.jpg");
+  background-size: cover;
+  align-items: center;
+}
+.two{
+  background-image: url("http://regaltheme.com/tf/multi/rm/rm/assets/img/portfolio/style4/4.jpg");
+  background-size: cover;
+}
+.three{
+  background-image: url("http://regaltheme.com/tf/multi/rm/rm/assets/img/portfolio/style4/3.jpg");
+  background-size: cover;
+}
+
+.four{
+  background-image: url("http://regaltheme.com/tf/multi/rm/rm/assets/img/portfolio/style4/4.jpg");
+  background-size: cover;
+}
+.five{
+  background-image: url("http://regaltheme.com/tf/multi/rm/rm/assets/img/portfolio/style4/6.jpg");
+  background-size: cover;
+}
+.six{
+  background-image: url("http://regaltheme.com/tf/multi/rm/rm/assets/img/portfolio/style4/5.jpg");
+  background-size: cover;
+}
+
+.link{
+  margin-top: 2%;
+  text-decoration: none;
+  border: solid 1px black;
+  color: black;
+  padding:3% 9%;
+  font-weight: 500;
+  font-size: 1em;
+}
+.marging-link{
+  margin: 10%;
+}
+.section-t{
+  padding: 120px 0px;
+}
+.box-r{
+    display: flex;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.box-s1{
+  padding: 50px 50px;
+  margin: 5% 5% ;
+  background-color: white;
+  box-shadow: 1px 1px 10px #888888;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+.salto{
+  margin-top: 10px;
+}
+
+.img-nw-1{
+  background-image: url('http://regaltheme.com/tf/multi/rm/rm/assets/img/blog/style1/1.jpg');
+  min-width: 400px;
+  height: 400px;
+  background-size: cover;
+}
+.img-nw-2{
+  background-image: url('http://regaltheme.com/tf/multi/rm/rm/assets/img/blog/style1/2.jpg');
+  min-width: 400px;
+  height: 400px;
+  background-size: cover;
+}
+.padding-news{
+  padding-left: 150px;
+  padding-right: 150px;
+  margin-top: 60px;
+}
+.link1{
+  margin-top: 2%;
+  color: black;
+  padding:3% 9%;
+  font-weight: 500;
+  font-size: 1em;
+}
+.no-dec{
+  text-decoration: none;
+  text-decoration-color: none;
+  color: black;
+}
+.bg-black{
+  background-color: #111111;
+}
+.cont1{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: 115px;
+    margin-left: 115px;
+    display: flex;
+}
+div{
+  display: block;
+}
+.img-ftr{
+  background-image: url('http://regaltheme.com/tf/multi/rm/rm/assets/img/logo-white.png');
+  width: 100%;
+  height: 103px;
+  background-repeat: no-repeat;
+  margin: 50px;
+}
+.padding-ftr{
+    margin-right: 15px;
+    margin-left: 15px;
+    padding: 50px;
+    width:100%;
+}
+.txt-w{
+  color: white;
+}
